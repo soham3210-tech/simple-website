@@ -75,7 +75,6 @@ body {
 #home-main .headings h1 {
     color: transparent;
     -webkit-text-stroke: 1px #000;
-
     font-size: 6vw;
     font-weight: 900;
     line-height: 1;
@@ -96,4 +95,41 @@ body {
 #home-last p::selection {
     background: #000;
     color: #fff;
+}
+
+#featured {
+    padding: 10vw 15vw;
+}
+
+#featured h1 {
+    line-height: 1;
+    font-size: 4vw;
+    font-weight: 400;
+}
+
+#featured h1:nth-child(2) {
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+}
+
+#fimages {
+    display: flex;
+
+    justify-content: space-between;
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 5vw;
+
+}
+
+#fleft {
+    width: 45%;
+    min-height: inherit;
+    border: 1px solid blue;
+}
+
+#fright {
+    width: 45%;
+    min-height: inherit;
+    border: 1px solid green;
 }
